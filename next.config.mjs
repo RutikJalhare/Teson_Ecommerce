@@ -8,7 +8,10 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    domains: ['fakestoreapi.com'],
   },
+  output: 'standalone',
+  trailingSlash: false,
 }
 
 export default nextConfig
