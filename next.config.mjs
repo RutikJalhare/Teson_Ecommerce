@@ -10,8 +10,9 @@ const nextConfig = {
     unoptimized: true,
     domains: ['fakestoreapi.com'],
   },
-  output: 'standalone',
-  trailingSlash: false,
+  output: 'export',
+  trailingSlash: true,
+  distDir: 'out',
 }
 
 export default nextConfig
